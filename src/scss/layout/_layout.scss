@@ -1,0 +1,23 @@
+.l-wrap-inner{
+    width: 1100px;
+    margin: 0 auto;
+
+
+    &--full{
+        width: 1300px;
+        
+    }
+
+    &--top1{
+        width: 1100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 60px;
+        
+    }
+
+
+
+}

@@ -1,0 +1,45 @@
+.c-card{
+    display: flex;
+    // margin: 0 auto;
+    align-items: center;
+    margin-top: 60px;
+    
+
+    
+    
+
+    &__txt{
+        margin: 0 auto;
+        // background-color: #fa8383;
+        width: 50%;
+        
+        display: block;
+        justify-content: center;
+        align-items: center;
+        max-width: 650px;
+
+        h3{
+            font-family: 'Lato',light;
+            font-size: 35px;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        p{
+            text-align: left;
+            font-family: 'Poppins';
+            font-size: 20px;
+            margin-bottom: 40px;
+            opacity: 50%;
+        }
+    }
+    &__img{
+        width: 650px;
+    }
+
+    &--reverse{
+        &:nth-child(odd){
+            flex-direction: row-reverse;
+        }
+    }
+
+}

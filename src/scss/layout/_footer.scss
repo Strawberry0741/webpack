@@ -1,0 +1,17 @@
+.l-footer{
+    &__copy{
+        background-color: #325DFF;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        h3{
+            margin: 0 auto;
+            font-family: 'Poppins';
+            font-size: 20px;
+            opacity: 52%;
+            text-align: center;
+            color: #FFFFFF;
+        }
+    }
+    
+}
